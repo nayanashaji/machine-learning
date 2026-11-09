@@ -11,11 +11,12 @@ Tasks:
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier,plot_tree
 from sklearn.metrics import accuracy_score
 
 data=load_iris()
@@ -51,3 +52,11 @@ importance=pd.Series(
 print("Accuracy Score: ",accuracy_score(y_test,pred))
 
 print("\nFeature Importance: ",importance)
+
+plot_tree(
+    model,
+    feature_names=X.columns,
+    class_names=data.target_names
+)
+
+plt.show()
