@@ -1,3 +1,16 @@
+'''
+Implement a Naïve Bayes classifier to categorize text documents into topics using the 20 
+Newsgroups dataset. Compare the performance of Multinomial Naïve Bayes with 
+Bernoulli Naïve Bayes. 
+Tasks: 
+● Load and preprocess the 20 Newsgroups dataset. 
+● Implement Multinomial Naïve Bayes and Bernoulli Naïve Bayes classifiers. 
+● Evaluate and compare the performance of both models using metrics such as 
+accuracy and F1-score. 
+● Discuss the strengths and weaknesses of each Naïve Bayes variant for text 
+classification.
+'''
+
 import pandas as pd
 
 from sklearn.datasets import load_breast_cancer

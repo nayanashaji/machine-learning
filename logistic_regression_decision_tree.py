@@ -1,3 +1,15 @@
+'''
+Implement and compare Logistic Regression and Decision Trees on the Adult Income 
+dataset for predicting income levels. Evaluate both models based on performance metrics 
+and interpretability. 
+Tasks: 
+● Load and preprocess the Adult Income dataset. 
+● Implement both Logistic Regression and Decision Trees. 
+● Compare the models based on metrics such as accuracy, precision, recall, and F1
+score. 
+● Discuss the interpretability of both models and their suitability for the dataset. 
+'''
+
 import numpy as np
 import pandas as pd
 

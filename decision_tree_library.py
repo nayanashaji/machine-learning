@@ -1,3 +1,14 @@
+'''
+Implement a Decision Tree classifier using the ID3 algorithm to segment customers based 
+on their purchasing behavior using the Online Retail dataset. Analyze the tree structure 
+and discuss the feature importance. 
+Tasks: 
+● Load and preprocess the Online Retail dataset. 
+● Implement Decision Tree using the ID3 algorithm. 
+● Visualize the decision tree and analyze feature importance. 
+● Discuss how the tree structure helps in understanding customer behavior. 
+'''
+
 import numpy as np
 import pandas as pd
 
