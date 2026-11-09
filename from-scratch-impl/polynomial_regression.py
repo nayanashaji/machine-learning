@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error,r2_score
 cols=["mpg","cylinders","displacement","horsepower","weight",
       "acceleration","model_year","origin","car_name"]
-df=pd.read_csv("auto-mpg.data",
+df=pd.read_csv("datasets/auto-mpg.data",
                delim_whitespace=True,
                names=cols,
                na_values="?").dropna()

@@ -11,7 +11,7 @@ columns = [
     "Insulin", "BMI", "DiabetesPedigree", "Age", "Outcome"
 ]
 
-df = pd.read_csv("diabetes.csv")
+df = pd.read_csv("datasets/diabetes.csv")
 
 X = df.drop("Outcome", axis=1).values
 y = df["Outcome"].values

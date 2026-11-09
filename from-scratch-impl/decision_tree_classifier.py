@@ -16,7 +16,7 @@ columns = [
 ]
 
 df = pd.read_csv(
-    "adult.data",
+    "datasets/adult.data",
     names=columns,
     skipinitialspace=True
 )
